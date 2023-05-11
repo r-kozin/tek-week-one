@@ -1,0 +1,31 @@
+/* last student : font-size = 10px/ text-color: silver/ border: 1px solid grey( on hover text should change to blue)
+Your name : font-size = 30px/ text-color: purple/ border: 1px solid green( on hover text should change to red) */
+
+ol :first-child {
+  font-size: 20px;
+  color: red;
+  border: 1px solid blue;
+}
+ol :first-child:hover {
+  color: green;
+}
+
+ol :last-child {
+  font-size: 10px;
+  color: silver;
+  border: 1px solid green;
+}
+
+ol :last-child:hover {
+  color: blue;
+}
+
+ol :nth-child(24) {
+  font-size: 30px;
+  color: purple;
+  border: 1px solid green;
+}
+
+ol :nth-child(24):hover {
+  color: red;
+}

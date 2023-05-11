@@ -36,3 +36,24 @@ li a:hover:not(.active) {
   margin-right: 0.5em;
   vertical-align: bottom;
 }
+
+table {
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  border: 5px solid green;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid red;
+}
+
+td:hover {
+  background-color: lightcoral;
+  color: white;
+}
+#tableHead {
+  width: 100%;
+
+}
