@@ -1,0 +1,110 @@
+.login {
+    height: auto;
+    width: 250px;
+    border: 1px solid black;
+    background-color: grey;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+input {
+    width: 60%;
+    text-align: center;
+    padding: 5px;
+}
+a {
+    color: orange;
+
+}
+button {
+    width: 65%;
+    padding: 5px;
+    background-color: aqua;
+    border: 0px solid aqua;
+}
+.profilePicture {
+
+    position: static;
+
+}
+#profilePicture {
+    height: 50px;
+    width: 50px;
+}
+#profilePicture img {
+    object-fit: fill;
+    margin: 20% 200%;
+    height: 50px; 
+    width: 50px;
+}
+.inTouch {
+height: 550px;
+width: 550px;
+border: 1px solid black;
+background-color: #ff5252;
+color: white;
+text-align: center;
+margin: auto;
+padding: auto;
+box-shadow: 20px 10px 20px black;
+}
+.inTouch a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inTouch a:hover {
+    color: orange
+}
+.inTouch h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -20px;
+}
+.inTouch h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inTouch input {
+    width: 90%;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    background-color: #b81d1d;
+    border: 0px solid black;
+}
+.inTouch input::placeholder {
+    color: white;
+}
+.inTouch button{
+width: 90%;
+color: white;
+padding: 20px;
+background-color: #b81d1d;
+border: 0px solid #b81d1d;
+}
+.inTouch select{
+    width: 92%;
+    color: white;
+    padding: 10px;
+    background-color: #b81d1d;
+    border: 0px solid #b81d1d;
+}
+#messageContent {
+    height: 80px;
+}
+
+.inTouch textarea{
+    width: 88%;
+    color: white;
+    padding: 10px;
+    background-color: #b81d1d;
+    border: 0px solid #b81d1d;
+}
+.inTouch button:hover{
+    cursor: pointer;
+    width: 90%;
+    color: white;
+    padding: 20px;
+    background-color: #f04848;
+    border: 0px solid #f04848;
+    }
