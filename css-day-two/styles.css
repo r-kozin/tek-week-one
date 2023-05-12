@@ -7,6 +7,7 @@ ol :first-child {
   border: 1px solid blue;
 }
 ol :first-child:hover {
+  cursor: pointer;
   color: green;
 }
 
@@ -17,6 +18,7 @@ ol :last-child {
 }
 
 ol :last-child:hover {
+  cursor: pointer;
   color: blue;
 }
 
@@ -27,5 +29,33 @@ ol :nth-child(24) {
 }
 
 ol :nth-child(24):hover {
+  cursor: pointer;
   color: red;
 }
+
+table {
+    margin: 20px auto;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    border: 5px solid green;
+    border-collapse: collapse;
+ }
+ 
+ th {
+    border: 1px solid red;
+    padding: 5px;
+    font-size: 20px;
+    text-align: right;
+ }
+
+ td {
+     border: 1px solid red;
+  }
+ 
+ td:hover {
+    background-color: lightcoral;
+    color: white;
+    cursor: pointer;
+ }
+ 
