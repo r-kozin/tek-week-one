@@ -5,15 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Activity</title>
+    <style>
+        form{
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: auto;
+            width: 30%;
+            padding: 5px;
+        }
+        button {
+            float: right;
+            margin-right: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Login Page</h1>
 
     <form id="form">
+        <h1>Login Page</h1>
         <label for="username">Email</label>
         <input type="text" id="username" placeholder="Enter Your Email">
+        <br>
+        <br>
         <label for="password">Password</label>
         <input type="password" id="password" placeholder="Enter Your Password">
+        <br>
+        <br>
         <input type="submit" value="Login">
     </form>
 
@@ -22,23 +39,29 @@
 
     <br>
 
-    <h1>Registration Page</h1>
+   
 
     <form id="registration">
+        <h1 style="text-align: center;">Registration Page</h1>
         <label for="firstName">First Name</label>
         <input type="text" id="firstName" placeholder="Enter Your First Name">
+        <br>
         <br>
         <label for="lastName">Last Name</label>
         <input type="text" id="lastName" placeholder="Enter Your Last Name">
         <br>
-        <label for="username">Email</label>
-        <input type="text" id="username" placeholder="Enter Your Email">
         <br>
-        <label for="password">Password</label>
-        <input type="password" id="password" placeholder="Enter Your Password">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter Your Email">
+        <br>
+        <br>
+        <label for="regpass">Password</label>
+        <input type="password" id="regpass" placeholder="Enter Your Password">
+        <br>
         <br>
         <label for="confirmpass">Confirm Password</label>
         <input type="password" id="confirmpass" placeholder="Enter Your Password">
+        <br>
         <br>
         <label for="gender">Gender:</label>
         <input type="radio" name="genderM" id="genderM">
@@ -46,18 +69,23 @@
         <input type="radio" name="genderF" id="genderF">
         <label for="genderF">Female</label>
         <br>
+        <br>
         <label for="dob">Date of Birth</label>
         <input type="date" id="dob" placeholder="Enter Date of Birth">
+        <br>
         <br>
         <label for="habits">Habits</label>
         <input type="checkbox" name="sports" id="sports">
         <label for="sports">You like sports</label>
         <input type="checkbox" name="eating" id="eating">
-        <label for="sports">You like to eat</label>
+        <label for="eating">You like to eat</label>
         <input type="checkbox" name="sleep" id="sleep">
-        <label for="sports">You like to sleep</label>
+        <label for="sleep">You like to sleep</label>
         <br>
-        <input type="submit" value="Register">
+        <br>
+        <button id="register" type="submit">Submit</button>
+        <br>
+        <br>
     </form>
 </body>
 </html>
